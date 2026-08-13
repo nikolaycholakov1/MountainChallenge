@@ -1,0 +1,285 @@
+🗺️ 1. Interactive map (highest priority)
+
+Show all 39 peaks on a map of Bulgaria.
+
+🟢 Green = completed
+⚪ Gray = remaining
+Click a marker to see:
+Mountain
+Peak
+Height
+Date climbed
+Photos
+
+Use Leaflet.js (free and very easy).
+
+📷 2. Photo gallery
+
+Each completed hike could have photos.
+
+✅ Черни връх
+
+📅 05.07.2026
+
+📷 Photos
+
+Clicking the peak opens a gallery.
+
+🥾 3. Hiking details
+
+Each completed peak could expand.
+
+✅ Черни връх
+
+Distance:
+18 km
+
+Elevation gain:
+1450 m
+
+Time:
+7h 15m
+
+Difficulty:
+⭐⭐⭐⭐☆
+
+Companions:
+Ivan, Georgi
+
+Weather:
+Sunny
+📍 4. GPX links
+
+Since I can already see you have GPX files, add buttons.
+
+🗺 GPX
+📷 Photos
+🌍 Google Maps
+⭐ 5. Difficulty rating
+🟢 Easy
+
+🟡 Moderate
+
+🟠 Hard
+
+🔴 Extreme
+
+or
+
+⭐⭐⭐☆☆
+🌤️ 6. Weather
+
+Store what the weather was.
+
+☀️ Sunny
+
+12°C
+
+Wind 20 km/h
+👥 7. Who you climbed with
+👤 Solo
+
+👥 Ivan
+
+👥 Hiking Club
+🚗 8. Travel info
+Drive:
+2h 15m
+
+Start:
+Borovets
+
+Parking:
+Free
+⛰️ 9. Personal ranking
+❤️ Favorite hikes
+
+1. Вихрен
+
+2. Мусала
+
+3. Голям Перелик
+🏆 10. Achievements
+
+Automatically unlock badges.
+
+🏅 First Peak
+
+🏅 First 2000+
+
+🏅 10 Peaks
+
+🏅 Highest Peak
+
+🏅 First Winter Ascent
+
+🏅 Halfway Done
+
+🏅 All 39
+📈 11. Statistics
+
+Instead of only
+
+6 / 39
+
+show
+
+Highest climbed:
+2290 m
+
+Average elevation:
+1560 m
+
+Total elevation climbed:
+9500 m
+
+Average hike:
+16 km
+
+Total hikes:
+6
+
+Remaining:
+33
+📅 12. Timeline
+2026
+
+May
+✔ Люлин
+
+June
+✔ Любаш
+✔ Плана
+✔ Вискяр
+
+July
+✔ Черни връх
+
+August
+✔ Ерулска
+
+Looks really nice.
+
+🔍 13. Filters
+
+Buttons
+
+All
+
+Completed
+
+Remaining
+
+Above 2000 m
+
+Below 1500 m
+
+No page reload needed.
+
+🔎 14. Search
+🔍 Search...
+
+"Чер..."
+
+Instant filtering.
+
+🎨 15. Color by height
+
+Very cool visually.
+
+2900m 🔴
+
+2500m 🟠
+
+2000m 🟡
+
+1500m 🟢
+
+1000m 🔵
+🌙 16. Dark mode
+
+One button.
+
+☀️
+
+🌙
+
+Save preference in LocalStorage.
+
+⏱️ 17. Countdown
+33 peaks remaining
+
+Estimated completion:
+
+Summer 2028
+📍 18. GPS coordinates
+
+Clicking opens Google Maps.
+
+📍 42.1791, 23.5850
+🎯 19. Next recommendation
+
+Automatically recommend your next hike.
+
+Next suggested:
+
+Беласица
+
+Distance from Sofia:
+2h
+
+Difficulty:
+Medium
+
+Best season:
+September
+💾 20. Save progress
+
+Instead of editing HTML every time, have a checkbox.
+
+☐ Вихрен
+
+☑ Черни връх
+
+Checking it:
+
+updates progress
+saves locally
+remembers after refresh
+
+No coding needed after the initial setup.
+
+⭐ My favorite addition: Hover cards
+
+Imagine hovering over a peak and seeing:
+
+🏔 Черни връх
+
+Height
+2290 m
+
+Mountain
+Витоша
+
+Difficulty
+⭐⭐⭐☆☆
+
+Completed
+05.07.2026
+
+📷 Photo
+
+No clicking required.
+
+If this were my project...
+
+I'd keep it as a single HTML file but make it feel like a polished web app. My roadmap would be:
+
+🗺️ Interactive map
+📷 Photo gallery for completed peaks
+📈 Rich statistics (total ascent, average height, etc.)
+🔍 Search and filters
+🏅 Achievement system
+💾 LocalStorage so you never edit the HTML again
+
+Those six features would transform it from a checklist into a personal digital hiking journal that's enjoyable to revisit after every trip.
