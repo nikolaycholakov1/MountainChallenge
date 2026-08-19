@@ -12,7 +12,6 @@ mountains.forEach((mountain, index) => {
     // Create the <li>
     const li = document.createElement("li");
 
-    // Add completed class
     if (mountain.completed) {
         li.classList.add("completed");
     }
@@ -22,19 +21,20 @@ mountains.forEach((mountain, index) => {
     row.classList.add("row");
 
     // ==========================
-    // MOUNTAIN NAME
+    // LEFT SIDE
     // ==========================
 
+    const peakInfo = document.createElement("div");
+    peakInfo.classList.add("peak-info");
+
+    // Mountain name
     const peak = document.createElement("span");
     peak.classList.add("peak");
 
     peak.textContent =
         `${mountain.completed ? "✅ " : ""}${mountain.range} - ${mountain.peak}`;
 
-    // ==========================
-    // HEIGHT
-    // ==========================
-
+    // Height
     const height = document.createElement("span");
     height.classList.add("height");
 
@@ -42,11 +42,10 @@ mountains.forEach((mountain, index) => {
 
     peak.appendChild(height);
 
-    // Add mountain name + height
-    row.appendChild(peak);
+    peakInfo.appendChild(peak);
 
     // ==========================
-    // DATE
+    // CLIMB DATE
     // ==========================
 
     if (mountain.completed && mountain.date) {
@@ -57,11 +56,14 @@ mountains.forEach((mountain, index) => {
 
         date.textContent = mountain.date;
 
-        row.appendChild(date);
+        peakInfo.appendChild(date);
     }
 
+    // Add the peak information to row
+    row.appendChild(peakInfo);
+
     // ==========================
-    // GOOGLE MAPS LINK
+    // GOOGLE MAPS
     // ==========================
 
     if (
@@ -89,10 +91,7 @@ mountains.forEach((mountain, index) => {
         row.appendChild(mapLink);
     }
 
-    // ==========================
-    // ADD ROW TO LIST ITEM
-    // ==========================
-
+    // Add row to list item
     li.appendChild(row);
 
     // ==========================

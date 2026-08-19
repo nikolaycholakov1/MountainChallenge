@@ -180,8 +180,19 @@ li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     gap: 15px;
+}
+
+.peak-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.date {
+    color: var(--muted);
+    font-size: 15px;
+    white-space: nowrap;
 }
 
 .peak {
