@@ -12,7 +12,7 @@ mountains.forEach((mountain, index) => {
     // Create the <li>
     const li = document.createElement("li");
 
-    // Add completed class if the mountain is completed
+    // Add completed class
     if (mountain.completed) {
         li.classList.add("completed");
     }
@@ -21,43 +21,87 @@ mountains.forEach((mountain, index) => {
     const row = document.createElement("div");
     row.classList.add("row");
 
-    // Create mountain name
+    // ==========================
+    // MOUNTAIN NAME
+    // ==========================
+
     const peak = document.createElement("span");
     peak.classList.add("peak");
 
     peak.textContent =
         `${mountain.completed ? "✅ " : ""}${mountain.range} - ${mountain.peak}`;
 
-    // Create height
+    // ==========================
+    // HEIGHT
+    // ==========================
+
     const height = document.createElement("span");
     height.classList.add("height");
+
     height.textContent = `${mountain.height} м`;
 
     peak.appendChild(height);
 
-    // Add peak to row
+    // Add mountain name + height
     row.appendChild(peak);
 
-    // Add date if completed
+    // ==========================
+    // DATE
+    // ==========================
+
     if (mountain.completed && mountain.date) {
 
         const date = document.createElement("span");
+
         date.classList.add("date");
+
         date.textContent = mountain.date;
 
         row.appendChild(date);
     }
 
-    // Add row to li
-    li.appendChild(row);
+    // ==========================
+    // GOOGLE MAPS LINK
+    // ==========================
 
-    // First 20 mountains → left column
-    if (index < 20) {
-        leftList.appendChild(li);
+    if (
+        mountain.coordinates &&
+        typeof mountain.coordinates.lat === "number" &&
+        typeof mountain.coordinates.lng === "number"
+    ) {
+
+        const mapLink = document.createElement("a");
+
+        const { lat, lng } = mountain.coordinates;
+
+        mapLink.href =
+            `https://www.google.com/maps?q=${lat},${lng}`;
+
+        mapLink.target = "_blank";
+        mapLink.rel = "noopener noreferrer";
+
+        mapLink.textContent = "📍 Google Maps";
+
+        mapLink.classList.add("map-link");
+
+        mapLink.title = "Отвори в Google Maps";
+
+        row.appendChild(mapLink);
     }
 
-    // Remaining mountains → right column
-    else {
+    // ==========================
+    // ADD ROW TO LIST ITEM
+    // ==========================
+
+    li.appendChild(row);
+
+    // ==========================
+    // ADD TO COLUMN
+    // ==========================
+
+    if (index < 20) {
+        leftList.appendChild(li);
+    } else {
         rightList.appendChild(li);
     }
 });

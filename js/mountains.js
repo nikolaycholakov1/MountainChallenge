@@ -1,10 +1,16 @@
 const mountains = [
     {
+        id: 1,
         range: "Рила",
         peak: "Мусала",
         height: 2925,
         completed: true,
-        date: "12.08.2026"
+        date: "12.08.2026",
+        coordinates: {
+        lat: 42.1794,
+        lng: 23.5856
+        },
+        photos: "https://photos.example.com/musala"
     },
     {
         range: "Пирин",
