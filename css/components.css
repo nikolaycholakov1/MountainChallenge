@@ -39,13 +39,25 @@
 }
 
 .photo-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    margin-top: 6px;
+    padding: 4px 0;
+
     border: none;
     background: none;
 
-    cursor: pointer;
-    font-size: 18px;
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 600;
 
-    transition: transform var(--transition);
+    cursor: pointer;
+}
+
+.photo-button:hover {
+    text-decoration: underline;
 }
 
 .photo-button:hover {

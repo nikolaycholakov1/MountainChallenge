@@ -7,11 +7,18 @@ const mountains = [
         completed: true,
         date: "12.08.2026",
         coordinates: {
-            lat: 42.179304475234744, 
+            lat: 42.179304475234744,
             lng: 23.58518540891887
         },
         photos: [
-            "https://photos.example.com/musala"
+            {
+                url: "images/mountains/musala/musala-1.jpg",
+                caption: "Sunrise near the summit"
+            },
+            {
+                url: "images/mountains/musala/musala-1 copy.jpg",
+                caption: "Sunrise near the summit"
+            },
         ]
     },
     {
@@ -21,7 +28,7 @@ const mountains = [
         height: 2914,
         completed: false,
         coordinates: {
-            lat: 41.76723, 
+            lat: 41.76723,
             lng: 23.39888,
         },
         photos: []
@@ -33,7 +40,7 @@ const mountains = [
         height: 2376,
         completed: false,
         coordinates: {
-            lat: 42.71754, 
+            lat: 42.71754,
             lng: 24.91655,
         },
         photos: []
@@ -58,7 +65,7 @@ const mountains = [
         height: 2251,
         completed: false,
         coordinates: {
-            lat: 42.15790521836217, 
+            lat: 42.15790521836217,
             lng: 22.51613737059788
         },
         photos: []
@@ -70,7 +77,7 @@ const mountains = [
         height: 2212,
         completed: false,
         coordinates: {
-            lat: 41.37706040231576,  
+            lat: 41.37706040231576,
             lng: 23.620649285946588,
         },
         photos: []
@@ -82,9 +89,9 @@ const mountains = [
         height: 2191,
         completed: false,
         coordinates: {
-        lat: 41.606047185299126, 
-        lng: 24.57430822003771
-    },
+            lat: 41.606047185299126,
+            lng: 24.57430822003771
+        },
         photos: []
     },
     {
@@ -94,7 +101,7 @@ const mountains = [
         height: 2029,
         completed: false,
         coordinates: {
-            lat: 41.32114, 
+            lat: 41.32114,
             lng: 23.12053,
         },
         photos: []
@@ -106,7 +113,7 @@ const mountains = [
         height: 1924,
         completed: false,
         coordinates: {
-            lat: 41.78937086714135, 
+            lat: 41.78937086714135,
             lng: 22.96487561518686,
         },
         photos: []
@@ -118,7 +125,7 @@ const mountains = [
         height: 1803,
         completed: false,
         coordinates: {
-            lat: 41.7691, 
+            lat: 41.7691,
             lng: 23.00838,
         },
         photos: []
@@ -130,7 +137,7 @@ const mountains = [
         height: 1737,
         completed: false,
         coordinates: {
-            lat: 42.68531, 
+            lat: 42.68531,
             lng: 22.47382,
         },
         photos: []
@@ -142,7 +149,7 @@ const mountains = [
         height: 1733,
         completed: false,
         coordinates: {
-            lat: 42.5653, 
+            lat: 42.5653,
             lng: 22.43922,
         },
         photos: []
@@ -154,7 +161,7 @@ const mountains = [
         height: 1706,
         completed: false,
         coordinates: {
-            lat: 42.86334, 
+            lat: 42.86334,
             lng: 22.57635,
         },
         photos: []
@@ -166,7 +173,7 @@ const mountains = [
         height: 1644,
         completed: false,
         coordinates: {
-            lat: 41.5089, 
+            lat: 41.5089,
             lng: 23.00685,
         },
         photos: []
@@ -178,7 +185,7 @@ const mountains = [
         height: 1604,
         completed: false,
         coordinates: {
-            lat: 42.60734, 
+            lat: 42.60734,
             lng: 24.46137,
         },
         photos: []
@@ -190,7 +197,7 @@ const mountains = [
         height: 1500,
         completed: false,
         coordinates: {
-            lat: 42.29034, 
+            lat: 42.29034,
             lng: 22.57005
         },
         photos: []
@@ -202,7 +209,7 @@ const mountains = [
         height: 1497,
         completed: false,
         coordinates: {
-            lat: 42.36777, 
+            lat: 42.36777,
             lng: 22.46504,
         },
         photos: []
@@ -214,7 +221,7 @@ const mountains = [
         height: 1487,
         completed: false,
         coordinates: {
-            lat: 42.3441, 
+            lat: 42.3441,
             lng: 22.83938,
         },
         photos: []
@@ -227,7 +234,7 @@ const mountains = [
         completed: true,
         date: "02.08.2026",
         coordinates: {
-            lat: 42.69946, 
+            lat: 42.69946,
             lng: 22.65696,
         },
         photos: []
@@ -239,7 +246,7 @@ const mountains = [
         height: 1415,
         completed: false,
         coordinates: {
-            lat: 42.39067, 
+            lat: 42.39067,
             lng: 23.26214,
         },
         photos: []
@@ -252,7 +259,7 @@ const mountains = [
         completed: true,
         date: "25.06.2026",
         coordinates: {
-            lat: 42.75615, 
+            lat: 42.75615,
             lng: 22.75356,
         },
         photos: []
@@ -265,7 +272,7 @@ const mountains = [
         completed: true,
         date: "19.08.2026",
         coordinates: {
-            lat: 42.77728, 
+            lat: 42.77728,
             lng: 22.72795,
         },
         photos: []
@@ -277,7 +284,7 @@ const mountains = [
         height: 1362,
         completed: false,
         coordinates: {
-            lat: 42.51414, 
+            lat: 42.51414,
             lng: 22.60596,
         },
         photos: []
@@ -290,7 +297,7 @@ const mountains = [
         completed: true,
         date: "28.06.2026",
         coordinates: {
-            lat: 42.51275, 
+            lat: 42.51275,
             lng: 23.40794,
         },
         photos: []
@@ -302,7 +309,7 @@ const mountains = [
         height: 1329,
         completed: false,
         coordinates: {
-            lat: 42.70958, 
+            lat: 42.70958,
             lng: 22.56169,
         },
         photos: []
@@ -314,7 +321,7 @@ const mountains = [
         height: 1295,
         completed: false,
         coordinates: {
-            lat: 42.51246, 
+            lat: 42.51246,
             lng: 22.68864,
         },
         photos: []
@@ -327,7 +334,7 @@ const mountains = [
         completed: true,
         date: "31.05.2026",
         coordinates: {
-            lat: 42.65234, 
+            lat: 42.65234,
             lng: 23.17149,
         },
         photos: []
@@ -339,7 +346,7 @@ const mountains = [
         height: 1219,
         completed: false,
         coordinates: {
-            lat: 42.81157, 
+            lat: 42.81157,
             lng: 22.70148,
         },
         photos: []
@@ -351,7 +358,7 @@ const mountains = [
         height: 1218,
         completed: false,
         coordinates: {
-            lat: 41.40276,  
+            lat: 41.40276,
             lng: 23.75881
         },
         photos: []
@@ -363,7 +370,7 @@ const mountains = [
         height: 1187,
         completed: false,
         coordinates: {
-            lat: 42.5505848015625, 
+            lat: 42.5505848015625,
             lng: 22.65472309806826,
         },
         photos: []
@@ -375,7 +382,7 @@ const mountains = [
         height: 1181,
         completed: false,
         coordinates: {
-            lat: 42.83002, 
+            lat: 42.83002,
             lng: 22.78305
         },
         photos: []
@@ -387,7 +394,7 @@ const mountains = [
         height: 1172,
         completed: false,
         coordinates: {
-            lat: 42.58601, 
+            lat: 42.58601,
             lng: 22.7769,
         },
         photos: []
@@ -399,7 +406,7 @@ const mountains = [
         height: 1158,
         completed: false,
         coordinates: {
-            lat: 42.56927, 
+            lat: 42.56927,
             lng: 23.00876
         },
         photos: []
@@ -411,7 +418,7 @@ const mountains = [
         height: 1157,
         completed: false,
         coordinates: {
-            lat: 42.87871, 
+            lat: 42.87871,
             lng: 22.69567,
         },
         photos: []
@@ -423,7 +430,7 @@ const mountains = [
         height: 1129,
         completed: false,
         coordinates: {
-            lat: 42.62509442281282, 
+            lat: 42.62509442281282,
             lng: 22.853137857733287
         },
         photos: []
@@ -435,7 +442,7 @@ const mountains = [
         height: 1091,
         completed: false,
         coordinates: {
-            lat: 41.43958257439421, 
+            lat: 41.43958257439421,
             lng: 23.968310497488382,
         },
         photos: []
@@ -448,7 +455,7 @@ const mountains = [
         completed: true,
         date: "14.06.2026",
         coordinates: {
-            lat: 42.78819100746272,  
+            lat: 42.78819100746272,
             lng: 22.91376207775317,
         },
         photos: []
@@ -460,7 +467,7 @@ const mountains = [
         height: 856,
         completed: false,
         coordinates: {
-            lat: 41.99205, 
+            lat: 41.99205,
             lng: 26.32728,
         },
         photos: []
@@ -472,7 +479,7 @@ const mountains = [
         height: 710,
         completed: false,
         coordinates: {
-            lat: 41.96538545330762, 
+            lat: 41.96538545330762,
             lng: 27.489674683899896,
         },
         photos: []
