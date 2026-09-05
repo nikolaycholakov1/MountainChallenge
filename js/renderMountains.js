@@ -41,17 +41,11 @@ export function renderMountains(mountains) {
 
         row.appendChild(peakInfo);
 
-        // Right-side buttons
+        // Right-side action buttons
         const actions = document.createElement("div");
         actions.className = "actions";
 
-        // Map button
-        const mapLink = createMapLink(mountain.coordinates);
-        if (mapLink) {
-            actions.appendChild(mapLink);
-        }
-
-        // Photo Gallery button
+        // Gallery button
         if (mountain.photos && mountain.photos.length > 0) {
             const photoButton = document.createElement("button");
             photoButton.className = "photo-button";
@@ -61,7 +55,13 @@ export function renderMountains(mountains) {
                 openGallery(mountain);
             });
 
-            peakInfo.appendChild(photoButton);
+            actions.appendChild(photoButton);
+        }
+
+        // Google Maps button
+        const mapLink = createMapLink(mountain.coordinates);
+        if (mapLink) {
+            actions.appendChild(mapLink);
         }
 
         row.appendChild(actions);

@@ -75,6 +75,7 @@
 .gallery-caption {
 
     margin-top: 18px;
+    display: none;
 
     color: #ddd;
 }

@@ -1,2 +1,7 @@
 improvements.txt
 terminal_commands.txt
+*.mp4
+
+PHOTOS:
+photoFolder: "Musala"
+node generate-galleries.js
