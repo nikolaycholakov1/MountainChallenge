@@ -1,0 +1,53 @@
+.height {
+    display: inline-block;
+
+    margin-left: 8px;
+    padding: 4px 10px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    background: var(--badge-background);
+    border-radius: 20px;
+}
+
+.date {
+    color: var(--muted);
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.map-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    white-space: nowrap;
+    cursor: pointer;
+
+    transition: transform var(--transition);
+}
+
+.map-link:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+.photo-button {
+    border: none;
+    background: none;
+
+    cursor: pointer;
+    font-size: 18px;
+
+    transition: transform var(--transition);
+}
+
+.photo-button:hover {
+    transform: scale(1.1);
+}

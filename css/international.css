@@ -1,0 +1,55 @@
+.international-section {
+    margin-top: 60px;
+}
+
+.international-section h2 {
+    margin-bottom: 8px;
+    font-size: 34px;
+}
+
+#international-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.summit-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 20px;
+
+    background: var(--surface);
+    border-radius: var(--card-radius);
+    box-shadow: var(--shadow-small);
+
+    transition:
+        transform var(--transition),
+        box-shadow var(--transition);
+}
+
+.summit-card:hover {
+    transform: translateX(6px);
+    box-shadow: var(--shadow-hover);
+}
+
+.summit-info h3 {
+    margin: 0 0 6px;
+    font-size: 22px;
+}
+
+.summit-meta {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    color: var(--muted);
+    font-size: 15px;
+}
+
+.summit-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

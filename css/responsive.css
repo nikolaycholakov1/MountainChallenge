@@ -1,0 +1,37 @@
+@media (max-width: 900px) {
+
+    .columns {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 25px 12px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .date {
+        margin-top: 5px;
+    }
+
+    .summit-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .summit-actions {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
