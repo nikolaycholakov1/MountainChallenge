@@ -324,6 +324,7 @@ const mountains = [
                 peak: "Виден",
                 height: 1487,
                 completed: true,
+                date: "13.09.2026",
                 coordinates: {
                         lat: 42.3441,
                         lng: 22.83938,
