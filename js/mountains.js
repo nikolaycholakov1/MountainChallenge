@@ -160,7 +160,29 @@ const mountains = [
                         lat: 42.56374,
                         lng: 23.27832
                 },
-                photos: []
+                photos: [
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_1.jpg", caption: "vitosha_cherni_vrah_1" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_2.jpg", caption: "vitosha_cherni_vrah_2" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_3.jpg", caption: "vitosha_cherni_vrah_3" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_4.jpg", caption: "vitosha_cherni_vrah_4" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_5.jpg", caption: "vitosha_cherni_vrah_5" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_6.jpg", caption: "vitosha_cherni_vrah_6" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_7.jpg", caption: "vitosha_cherni_vrah_7" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_8.jpg", caption: "vitosha_cherni_vrah_8" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_9.jpg", caption: "vitosha_cherni_vrah_9" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_10.jpg", caption: "vitosha_cherni_vrah_10" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_11.jpg", caption: "vitosha_cherni_vrah_11" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_13.jpg", caption: "vitosha_cherni_vrah_13" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_14.jpg", caption: "vitosha_cherni_vrah_14" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_15.jpg", caption: "vitosha_cherni_vrah_15" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_16.jpg", caption: "vitosha_cherni_vrah_16" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_17.jpg", caption: "vitosha_cherni_vrah_17" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_18.jpg", caption: "vitosha_cherni_vrah_18" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_19.jpg", caption: "vitosha_cherni_vrah_19" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_20.jpg", caption: "vitosha_cherni_vrah_20" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_21.jpg", caption: "vitosha_cherni_vrah_21" },
+                        { url: "images/mountains/vitosha-cherni-vrah/vitosha_cherni_vrah_22.jpg", caption: "vitosha_cherni_vrah_22" }
+                ]
         },
         {
                 id: 5,
