@@ -7,51 +7,60 @@ export function renderInternationalSummits(summits) {
     container.innerHTML = "";
 
     summits.forEach(summit => {
-        const card = document.createElement("div");
-        card.className = "summit-card";
+        const li = document.createElement("li");
+
+        if (summit.completed) {
+            li.classList.add("completed");
+        }
+
+        const row = document.createElement("div");
+        row.className = "row";
+
+        const peakInfo = document.createElement("div");
+        peakInfo.className = "peak-info";
 
         const info = document.createElement("div");
-        info.className = "summit-info";
 
-        const title = document.createElement("h3");
-        title.textContent = `${summit.range} – ${summit.peak}`;
+        const peak = document.createElement("span");
+        peak.className = "peak";
+        peak.textContent = `${summit.completed ? "✅ " : ""}${summit.flag} ${summit.range} - ${summit.peak}`;
 
-        const meta = document.createElement("div");
-        meta.className = "summit-meta";
+        const height = document.createElement("span");
+        height.className = "height";
+        height.textContent = `${summit.height} м`;
 
-        meta.innerHTML = `
-            <span>${summit.flag} ${summit.country}</span>
-            <span class="summit-badge">${summit.height} м</span>
-            ${summit.completed && summit.date
-                ? `<span>${summit.date}</span>`
-                : ""}
-        `;
+        peak.appendChild(height);
+        info.appendChild(peak);
 
-        info.append(title, meta);
+        // Second line (country + date)
+        const meta = document.createElement("span");
+        meta.className = "date";
+        meta.textContent = summit.completed && summit.date
+            ? `${summit.country}  ${summit.date}`
+            : summit.country;
 
+        info.appendChild(meta);
+
+        peakInfo.appendChild(info);
+        row.appendChild(peakInfo);
+
+        // Action buttons
         const actions = document.createElement("div");
         actions.className = "actions";
 
-        // Gallery button (same as Bulgarian hikes)
         if (summit.photos && summit.photos.length > 0) {
             const photoButton = document.createElement("button");
             photoButton.className = "photo-button";
             photoButton.innerHTML = "📷 Gallery";
-
-            photoButton.addEventListener("click", () => {
-                openGallery(summit);
-            });
-
+            photoButton.addEventListener("click", () => openGallery(summit));
             actions.appendChild(photoButton);
         }
 
-        // Google Maps button
         const mapLink = createMapLink(summit.coordinates);
-        if (mapLink) {
-            actions.appendChild(mapLink);
-        }
+        if (mapLink) actions.appendChild(mapLink);
 
-        card.append(info, actions);
-        container.appendChild(card);
+        row.appendChild(actions);
+        li.appendChild(row);
+        container.appendChild(li);
     });
 }
