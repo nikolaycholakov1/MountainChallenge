@@ -299,12 +299,31 @@ const mountains = [
                 range: "Лисец",
                 peak: "Връшник",
                 height: 1500,
-                completed: false,
+                completed: true,
+                date: "19.09.2026",
                 coordinates: {
                         lat: 42.29034,
                         lng: 22.57005
                 },
-                photos: []
+                photos: [
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_1.jpg", caption: "lisec-vrashnik_1" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_2.jpg", caption: "lisec-vrashnik_2" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_3.jpg", caption: "lisec-vrashnik_3" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_4.jpg", caption: "lisec-vrashnik_4" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_5.jpg", caption: "lisec-vrashnik_5" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_6.jpg", caption: "lisec-vrashnik_6" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_7.jpg", caption: "lisec-vrashnik_7" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_8.jpg", caption: "lisec-vrashnik_8" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_9.jpg", caption: "lisec-vrashnik_9" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_10.jpg", caption: "lisec-vrashnik_10" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_13.jpg", caption: "lisec-vrashnik_13" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_14.jpg", caption: "lisec-vrashnik_14" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_15.jpg", caption: "lisec-vrashnik_15" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_16.jpg", caption: "lisec-vrashnik_16" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_17.jpg", caption: "lisec-vrashnik_17" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_18.jpg", caption: "lisec-vrashnik_18" },
+                        { url: "images/mountains/lisec-vrashnik/lisec-vrashnik_19.jpg", caption: "lisec-vrashnik_19" },
+                ]
         },
         {
                 id: 17,
