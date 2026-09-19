@@ -7,3 +7,8 @@
 @import url("./components.css");
 @import url("./responsive.css");
 @import url("./gallery.css");
+
+:root {
+    --background: #e6e6e6;
+    --surface: #eeeeee;
+}
