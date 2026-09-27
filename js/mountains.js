@@ -910,12 +910,32 @@ const mountains = [
                 range: "Черна гора",
                 peak: "Тумба",
                 height: 1129,
-                completed: false,
+                completed: true,
+                date: "27.09.2026",
                 coordinates: {
                         lat: 42.62509442281282,
                         lng: 22.853137857733287
                 },
-                photos: []
+                photos: [
+                        { url: "images/mountains/cherna-gora-tumba/20260927_135501.jpg", caption: "20260927_135501" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_135506.jpg", caption: "20260927_135506" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_135817.png", caption: "20260927_135817" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_141648.jpg", caption: "20260927_141648" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_141957.jpg", caption: "20260927_141957" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_143105.png", caption: "20260927_143105" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_143148.jpg", caption: "20260927_143148" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_143154.jpg", caption: "20260927_143154" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_143224.jpg", caption: "20260927_143224" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_143240.jpg", caption: "20260927_143240" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_143540.jpg", caption: "20260927_143540" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_143559.jpg", caption: "20260927_143559" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_143651.jpg", caption: "20260927_143651" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_144021.jpg", caption: "20260927_144021" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_144219.jpg", caption: "20260927_144219" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_150357.jpg", caption: "20260927_150357" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_150403.jpg", caption: "20260927_150403" },
+                        { url: "images/mountains/cherna-gora-tumba/20260927_153249.jpg", caption: "20260927_153249" }
+                ]
         },
         {
                 id: 36,
