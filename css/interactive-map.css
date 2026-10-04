@@ -33,9 +33,9 @@
 
 .map-container iframe {
     position: absolute;
-    top: -55px;
+    top: -75px;
     left: 0;
     width: 100%;
-    height: calc(100% + 55px);
+    height: calc(100% + 75px);
     border: 0;
 }
