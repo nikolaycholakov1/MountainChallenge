@@ -5,6 +5,8 @@ import { renderMountains } from "./renderMountains.js";
 import { renderInternationalSummits } from "./renderInternational.js";
 import { updateProgress } from "./progress.js";
 
+import "./interactive-map.js";
+
 renderMountains(mountains);
 updateProgress(mountains);
 renderInternationalSummits(internationalSummits);
