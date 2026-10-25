@@ -898,12 +898,31 @@ const mountains = [
                 range: "Гребен",
                 peak: "Голеш",
                 height: 1157,
-                completed: false,
+                completed: true,
+                date: "25.09.2026",
                 coordinates: {
                         lat: 42.87871,
                         lng: 22.69567,
                 },
-                photos: []
+                photos: [
+                        { url: "images/mountains/greben-golesh/20261025_122221.jpg", caption: "20261025_122221" },
+                        { url: "images/mountains/greben-golesh/20261025_122224.jpg", caption: "20261025_122224" },
+                        { url: "images/mountains/greben-golesh/20261025_123133.jpg", caption: "20261025_123133" },
+                        { url: "images/mountains/greben-golesh/20261025_123137.jpg", caption: "20261025_123137" },
+                        { url: "images/mountains/greben-golesh/20261025_125258.jpg", caption: "20261025_125258" },
+                        { url: "images/mountains/greben-golesh/20261025_125305.jpg", caption: "20261025_125305" },
+                        { url: "images/mountains/greben-golesh/20261025_125329.jpg", caption: "20261025_125329" },
+                        { url: "images/mountains/greben-golesh/20261025_133007.jpg", caption: "20261025_133007" },
+                        { url: "images/mountains/greben-golesh/20261025_133012.jpg", caption: "20261025_133012" },
+                        { url: "images/mountains/greben-golesh/20261025_133149.jpg", caption: "20261025_133149" },
+                        { url: "images/mountains/greben-golesh/20261025_133338.jpg", caption: "20261025_133338" },
+                        { url: "images/mountains/greben-golesh/20261025_134250.jpg", caption: "20261025_134250" },
+                        { url: "images/mountains/greben-golesh/20261025_134320.jpg", caption: "20261025_134320" },
+                        { url: "images/mountains/greben-golesh/20261025_134336.jpg", caption: "20261025_134336" },
+                        { url: "images/mountains/greben-golesh/20261025_135216.jpg", caption: "20261025_135xxx" },
+                        { url: "images/mountains/greben-golesh/20261025_135216.jpg", caption: "20261025_135216" },
+                        { url: "images/mountains/greben-golesh/20261025_142150.jpg", caption: "20261025_142150" }
+                ]
         },
         {
                 id: 35,
