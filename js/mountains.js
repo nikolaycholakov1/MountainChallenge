@@ -11,119 +11,36 @@ const mountains = [
                         lng: 23.58518540891887
                 },
                 photos: [
-                        {
-                                "url": "images/mountains/rila-musala/1.jpg",
-                                "caption": "1"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/2.jpg",
-                                "caption": "2"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/3.jpg",
-                                "caption": "3"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/4.jpg",
-                                "caption": "4"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/5.jpg",
-                                "caption": "5"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/761963855_1013305778186836_1814871235319161928_n.jpg",
-                                "caption": "761963855_1013305778186836_1814871235319161928_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/762324248_1331029832446497_1001858248275221654_n.jpg",
-                                "caption": "762324248_1331029832446497_1001858248275221654_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/762465480_2064018150989868_3967122982255006396_n.jpg",
-                                "caption": "762465480_2064018150989868_3967122982255006396_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/762551179_927539793050683_5159119966954573787_n.jpg",
-                                "caption": "762551179_927539793050683_5159119966954573787_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/762551179_1472953591361558_512399259061615971_n.jpg",
-                                "caption": "762551179_1472953591361558_512399259061615971_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/763155883_2592180427888505_9004029151575455429_n.jpg",
-                                "caption": "763155883_2592180427888505_9004029151575455429_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/763248650_1022067907309465_2794455362161327156_n.jpg",
-                                "caption": "763248650_1022067907309465_2794455362161327156_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/766397526_1320488599894966_1266421392636810214_n.jpg",
-                                "caption": "766397526_1320488599894966_1266421392636810214_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/766952269_2054909131898288_1078070810702932917_n.jpg",
-                                "caption": "766952269_2054909131898288_1078070810702932917_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/767430409_1809381483565844_6211173547229335923_n.jpg",
-                                "caption": "767430409_1809381483565844_6211173547229335923_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/768554990_1711195446764410_1357280693557683088_n.jpg",
-                                "caption": "768554990_1711195446764410_1357280693557683088_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/768576778_1032279236081074_5093650834114768021_n.jpg",
-                                "caption": "768576778_1032279236081074_5093650834114768021_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/768576778_1065464379159001_3195826340726916669_n.jpg",
-                                "caption": "768576778_1065464379159001_3195826340726916669_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/768962665_1773660816971495_1604998483086019489_n.jpg",
-                                "caption": "768962665_1773660816971495_1604998483086019489_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/769051107_1530364274984749_1876751671709512501_n.jpg",
-                                "caption": "769051107_1530364274984749_1876751671709512501_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/769803795_1226882249579617_1521486981151012838_n.jpg",
-                                "caption": "769803795_1226882249579617_1521486981151012838_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/770276028_1307845981209705_4080548774698297780_n.jpg",
-                                "caption": "770276028_1307845981209705_4080548774698297780_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/770846869_1526703485413044_7460590983812052902_n.jpg",
-                                "caption": "770846869_1526703485413044_7460590983812052902_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/771738692_1538948527230835_4644281694276170097_n.jpg",
-                                "caption": "771738692_1538948527230835_4644281694276170097_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/771755876_1042776251983924_6538304151898489392_n.jpg",
-                                "caption": "771755876_1042776251983924_6538304151898489392_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/772510502_1080228684497342_4634926723511610108_n.jpg",
-                                "caption": "772510502_1080228684497342_4634926723511610108_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/773589222_913857615123276_1353658770124141613_n.jpg",
-                                "caption": "773589222_913857615123276_1353658770124141613_n"
-                        },
-                        {
-                                "url": "images/mountains/rila-musala/musala-1.jpg",
-                                "caption": "musala-1"
-                        }
+                        { url: "images/mountains/rila-musala/1.jpg", caption: "1" },
+                        { url: "images/mountains/rila-musala/2.jpg", caption: "2" },
+                        { url: "images/mountains/rila-musala/3.jpg", caption: "3" },
+                        { url: "images/mountains/rila-musala/4.jpg", caption: "4" },
+                        { url: "images/mountains/rila-musala/5.jpg", caption: "5" },
+                        { url: "images/mountains/rila-musala/761963855_1013305778186836_1814871235319161928_n.jpg", caption: "761963855_1013305778186836_1814871235319161928_n" },
+                        { url: "images/mountains/rila-musala/762324248_1331029832446497_1001858248275221654_n.jpg", caption: "762324248_1331029832446497_1001858248275221654_n" },
+                        { url: "images/mountains/rila-musala/762465480_2064018150989868_3967122982255006396_n.jpg", caption: "762465480_2064018150989868_3967122982255006396_n" },
+                        { url: "images/mountains/rila-musala/762551179_927539793050683_5159119966954573787_n.jpg", caption: "762551179_927539793050683_5159119966954573787_n" },
+                        { url: "images/mountains/rila-musala/762551179_1472953591361558_512399259061615971_n.jpg", caption: "762551179_1472953591361558_512399259061615971_n" },
+                        { url: "images/mountains/rila-musala/763155883_2592180427888505_9004029151575455429_n.jpg", caption: "763155883_2592180427888505_9004029151575455429_n" },
+                        { url: "images/mountains/rila-musala/763248650_1022067907309465_2794455362161327156_n.jpg", caption: "763248650_1022067907309465_2794455362161327156_n" },
+                        { url: "images/mountains/rila-musala/766397526_1320488599894966_1266421392636810214_n.jpg", caption: "766397526_1320488599894966_1266421392636810214_n" },
+                        { url: "images/mountains/rila-musala/766952269_2054909131898288_1078070810702932917_n.jpg", caption: "766952269_2054909131898288_1078070810702932917_n" },
+                        { url: "images/mountains/rila-musala/767430409_1809381483565844_6211173547229335923_n.jpg", caption: "767430409_1809381483565844_6211173547229335923_n" },
+                        { url: "images/mountains/rila-musala/768554990_1711195446764410_1357280693557683088_n.jpg", caption: "768554990_1711195446764410_1357280693557683088_n" },
+                        { url: "images/mountains/rila-musala/768576778_1032279236081074_5093650834114768021_n.jpg", caption: "768576778_1032279236081074_5093650834114768021_n" },
+                        { url: "images/mountains/rila-musala/768576778_1065464379159001_3195826340726916669_n.jpg", caption: "768576778_1065464379159001_3195826340726916669_n" },
+                        { url: "images/mountains/rila-musala/768962665_1773660816971495_1604998483086019489_n.jpg", caption: "768962665_1773660816971495_1604998483086019489_n" },
+                        { url: "images/mountains/rila-musala/769051107_1530364274984749_1876751671709512501_n.jpg", caption: "769051107_1530364274984749_1876751671709512501_n" },
+                        { url: "images/mountains/rila-musala/769803795_1226882249579617_1521486981151012838_n.jpg", caption: "769803795_1226882249579617_1521486981151012838_n" },
+                        { url: "images/mountains/rila-musala/770276028_1307845981209705_4080548774698297780_n.jpg", caption: "770276028_1307845981209705_4080548774698297780_n" },
+                        { url: "images/mountains/rila-musala/770846869_1526703485413044_7460590983812052902_n.jpg", caption: "770846869_1526703485413044_7460590983812052902_n" },
+                        { url: "images/mountains/rila-musala/771738692_1538948527230835_4644281694276170097_n.jpg", caption: "771738692_1538948527230835_4644281694276170097_n" },
+                        { url: "images/mountains/rila-musala/771755876_1042776251983924_6538304151898489392_n.jpg", caption: "771755876_1042776251983924_6538304151898489392_n" },
+                        { url: "images/mountains/rila-musala/772510502_1080228684497342_4634926723511610108_n.jpg", caption: "772510502_1080228684497342_4634926723511610108_n" },
+                        { url: "images/mountains/rila-musala/773589222_913857615123276_1353658770124141613_n.jpg", caption: "773589222_913857615123276_1353658770124141613_n" },
+                        { url: "images/mountains/rila-musala/musala-1.jpg", caption: "musala-1" }
                 ]
+
         },
         {
                 id: 2,
@@ -899,7 +816,7 @@ const mountains = [
                 peak: "Голеш",
                 height: 1157,
                 completed: true,
-                date: "25.09.2026",
+                date: "25.10.2026",
                 coordinates: {
                         lat: 42.87871,
                         lng: 22.69567,

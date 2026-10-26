@@ -1,22 +1,4 @@
 const internationalSummits = [
-        {
-                id: 1,
-                country: "",
-                flag: "",
-                range: "Olympus",
-                peak: "Mytikas",
-                height: 2917,
-                completed: false,
-                date: "",
-                coordinates: {
-                        lat: 40.086289869970656,
-                        lng: 22.358704270078253
-                },
-                photos: [
-
-                ],
-
-        },
 
         {
                 id: 4,

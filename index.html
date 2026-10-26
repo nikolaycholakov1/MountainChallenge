@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>39 Първенци на планините в България</title>
+    <meta name="description"
+        content="Личен планински дневник — първенците на България, преходи в Гърция и най-високите върхове в Европа.">
+
+    <title>Mountain Challenge | Планински дневник</title>
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-
     <main class="container">
 
+        <!-- Page Header and Bulgarian Mountain Progress -->
         <header class="page-header">
             <h1>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg" alt="Bulgarian flag"
-                    width="85" style="vertical-align: middle; margin-right: 10px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg"
+                    alt="Българското знаме" class="country-flag country-flag-bg">
                 39 Първенци на планините в България
             </h1>
 
@@ -26,14 +29,14 @@
                     Прогрес: <span id="progress-text"></span> върха
                 </div>
 
-                <progress id="progress-bar" max="39"></progress>
+                <progress id="progress-bar" max="39" value="0"
+                    aria-label="Прогрес по 39-те планински първенци в България"></progress>
             </div>
         </header>
 
-        <section class="bulgaria-section">
-
+        <!-- Bulgarian Summits -->
+        <section class="bulgaria-section" aria-label="Първенци на планините в България">
             <div class="columns">
-
                 <div class="column">
                     <ol id="mountains-left"></ol>
                 </div>
@@ -41,66 +44,87 @@
                 <div class="column">
                     <ol id="mountains-right" start="21"></ol>
                 </div>
-
             </div>
-
         </section>
 
+        <!-- Interactive Map -->
+        <section class="map-section" aria-label="Карта на планинските върхове">
+            <button id="map-toggle" class="map-toggle" type="button" aria-expanded="false"
+                aria-controls="map-container">
+                🗺️ Карта <span class="map-arrow" aria-hidden="true">▼</span>
+            </button>
 
+            <div id="map-container" class="map-container collapsed">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1mpCXLgfLolE6-YjU2TnqLNwl7VIqG7Q"
+                    title="Карта на планинските върхове" loading="lazy" allowfullscreen>
+                </iframe>
+            </div>
+        </section>
 
-        <section class="international-section">
+        <hr class="section-divider">
 
+        <!-- Greek Hikes -->
+        <section class="international-section" >
             <h2>
-                <img src="images/icons/greece.svg" alt="Greek flag" width="75"
-                    style="vertical-align: middle; margin-right: 8px;">
+                <img src="images/icons/greece.svg" alt="Гръцкото знаме" class="country-flag country-flag-gr">
                 Гърция
             </h2>
-            <div id="international-list"></div>
 
+            <div id="international-list"></div>
         </section>
 
-        <button id="map-toggle" class="map-toggle">
-            🗺️ Карта <span class="map-arrow">▲</span>
-        </button>
+        <hr class="section-divider">
 
-        <div id="map-container" class="map-container">
-            <iframe src="https://www.google.com/maps/d/embed?mid=1mpCXLgfLolE6-YjU2TnqLNwl7VIqG7Q" loading="lazy"
-                allowfullscreen>
-            </iframe>
-        </div>
-        <hr>
+        <!-- European High Points Challenge -->
+        <section class="european-section">
+            <h2>🌍 European High Points - 44 Countries</h2>
+
+            <div class="progress-section">
+                <div class="progress-text">
+                    Progress: <span id="european-progress-text"></span>
+                </div>
+
+                <progress id="european-progress-bar" max="44" value="0"
+                    aria-label="European high points challenge progress"></progress>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <ol id="european-list-left"></ol>
+                </div>
+
+                <div class="column">
+                    <ol id="european-list-right" start="23"></ol>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-    <!-- Photo Gallery -->
+    <!-- Photo Gallery Modal -->
     <div id="gallery-overlay" class="gallery-overlay hidden">
+        <div class="gallery" role="dialog" aria-modal="true" aria-labelledby="gallery-title">
 
-        <div class="gallery">
-
-            <button id="gallery-close" class="gallery-close">&times;</button>
+            <button id="gallery-close" class="gallery-close" type="button"
+                aria-label="Close photo gallery">&times;</button>
 
             <h2 id="gallery-title"></h2>
 
             <div class="gallery-image-wrapper">
-
-                <button id="gallery-prev" class="gallery-prev">❮</button>
+                <button id="gallery-prev" class="gallery-prev" type="button" aria-label="Previous photo">❮</button>
 
                 <img id="gallery-image" class="gallery-image" alt="Mountain photo">
 
-                <button id="gallery-next" class="gallery-next">❯</button>
-
+                <button id="gallery-next" class="gallery-next" type="button" aria-label="Next photo">❯</button>
             </div>
 
             <p id="gallery-caption" class="gallery-caption"></p>
 
             <div id="gallery-counter" class="gallery-counter"></div>
-
         </div>
-
     </div>
 
     <script type="module" src="js/script.js"></script>
-
 </body>
 
 </html>

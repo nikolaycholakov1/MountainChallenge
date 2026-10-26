@@ -1,0 +1,97 @@
+/* European High Points section */
+
+.european-section {
+    margin-top: 35px;
+}
+
+.european-section h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.european-section .progress-section {
+    margin-bottom: 25px;
+}
+
+/* Divider between international hikes and European challenge */
+
+.section-divider {
+    border: 0;
+    border-top: 2px solid #c5c5c5;
+    margin: 35px 0;
+}
+
+/* European summit lists */
+
+#european-list-left,
+#european-list-right {
+    list-style-position: outside;
+    margin: 0;
+    padding-left: 30px;
+}
+
+#european-list-left li,
+#european-list-right li {
+    margin-bottom: 12px;
+}
+
+/* Summit names and elevations */
+
+.european-section .peak {
+    font-weight: 600;
+}
+
+.european-section .height {
+    margin-left: 8px;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+/* Completion date and additional information */
+
+.european-section .date {
+    margin-left: 10px;
+    font-size: 0.85em;
+}
+
+/* Action buttons */
+
+.european-section .actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+/* Responsive layout */
+
+@media (max-width: 900px) {
+    .european-section .columns {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .european-section .column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .european-section h2 {
+        font-size: 25px;
+    }
+
+    .european-section .row {
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .european-section .peak-info {
+        flex-wrap: wrap;
+    }
+
+    .european-section .actions {
+        flex-wrap: wrap;
+    }
+}

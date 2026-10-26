@@ -8,6 +8,7 @@
 @import url("./responsive.css");
 @import url("./gallery.css");
 @import url("./interactive-map.css");
+@import url("./european.css");
 
 :root {
     --background: #e6e6e6;

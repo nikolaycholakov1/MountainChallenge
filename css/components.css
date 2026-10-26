@@ -63,3 +63,16 @@
 .photo-button:hover {
     transform: scale(1.1);
 }
+
+.country-flag {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.country-flag-bg {
+    width: 85px;
+}
+
+.country-flag-gr {
+    width: 75px;
+}

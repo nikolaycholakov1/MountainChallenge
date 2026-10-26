@@ -7,15 +7,25 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
+    const arrow = mapToggle.querySelector(".map-arrow");
+
+    // Set the initial state
+    const isCollapsed = mapContainer.classList.contains("collapsed");
+
+    mapToggle.setAttribute("aria-expanded", String(!isCollapsed));
+
+    if (arrow) {
+        arrow.textContent = isCollapsed ? "▼" : "▲";
+    }
+
+    // Toggle the map when the button is clicked
     mapToggle.addEventListener("click", () => {
-        mapContainer.classList.toggle("collapsed");
+        const isNowCollapsed = mapContainer.classList.toggle("collapsed");
 
-        const arrow = mapToggle.querySelector(".map-arrow");
-
-        if (mapContainer.classList.contains("collapsed")) {
-            arrow.textContent = "▼";
-        } else {
-            arrow.textContent = "▲";
+        if (arrow) {
+            arrow.textContent = isNowCollapsed ? "▼" : "▲";
         }
+
+        mapToggle.setAttribute("aria-expanded", String(!isNowCollapsed));
     });
 });
